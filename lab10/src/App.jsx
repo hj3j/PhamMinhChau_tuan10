@@ -6,6 +6,7 @@ import { createSlice } from '@reduxjs/toolkit'
 import Couter from './component/Couter'
 import ToDoList from './component/ToDoList'
 import ThemeToggle from './component/ThemeToggle'
+import Cart from './component/Cart'
 
 function App() {
 
@@ -18,7 +19,8 @@ function App() {
       <div>
         {/* <Couter/><br /> */}
         {/* <ToDoList/> */}
-        <ThemeToggle/>
+        {/* <ThemeToggle/> */}
+        <Cart/>
       </div>
       
     </>

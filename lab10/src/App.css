@@ -14,3 +14,49 @@ body.dark{
   background-color: #000;
 }
 
+/* CART************************************************************************ */
+.cart input{
+  margin-right: 10px;
+}
+
+.cart .add{
+  background-color: green;
+  margin-top: 10px;
+}
+
+.cart .delete{
+  background-color: red;
+  margin-left: 20px;
+}
+
+.cart .update{
+  background-color: yellow;
+  margin-left: 20px;
+}
+
+.cart .total{
+  background-color: blue;
+  margin-top: 30px;
+}
+
+.cart span{
+  margin: 0px 10px;
+}
+
+.cart .infor {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 5px 0px;
+}
+
+.cart li{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0px;
+}
+
+.cart h1{
+  display: flex;
+  justify-content: center;
+}
