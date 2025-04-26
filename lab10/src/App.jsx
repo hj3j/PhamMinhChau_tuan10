@@ -4,21 +4,19 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { createSlice } from '@reduxjs/toolkit'
 import Couter from './component/Couter'
+import ToDoList from './component/ToDoList'
 
 function App() {
 
   // 1. Cài đặt Redux Toolkit
   // npm install @reduxjs/toolkit react-redux
 
-    
-
-
-
-
+  
   return (
     <>
       <div>
-        <Couter/>
+        <Couter/><br />
+        <ToDoList/>
       </div>
       
     </>
