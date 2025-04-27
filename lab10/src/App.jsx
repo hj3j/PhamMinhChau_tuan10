@@ -7,6 +7,7 @@ import Couter from './component/Couter'
 import ToDoList from './component/ToDoList'
 import ThemeToggle from './component/ThemeToggle'
 import Cart from './component/Cart'
+import Auth from './component/Auth'
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
         {/* <Couter/><br /> */}
         {/* <ToDoList/> */}
         {/* <ThemeToggle/> */}
-        <Cart/>
+        {/* <Cart/> */}
+        <Auth/>
       </div>
       
     </>
