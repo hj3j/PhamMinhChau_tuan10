@@ -87,3 +87,22 @@ body.dark{
   display: flex;
   justify-content: center;
 }
+
+
+/* async_Thunk******************************************************************************************** */
+.async_Thunk .loading{
+  color: rgb(122, 122, 37);
+}
+
+.async_Thunk .succeeded{
+  color: green;
+}
+
+.async_Thunk .error{
+  color: red;
+}
+
+.async_Thunk li{
+  margin: 20px 0px;
+  list-style-type: none;
+}

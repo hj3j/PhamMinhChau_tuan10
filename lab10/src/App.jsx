@@ -8,6 +8,7 @@ import ToDoList from './component/ToDoList'
 import ThemeToggle from './component/ThemeToggle'
 import Cart from './component/Cart'
 import Auth from './component/Auth'
+import Async_Thunk from './component/Async_Thunk'
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
         {/* <ToDoList/> */}
         {/* <ThemeToggle/> */}
         {/* <Cart/> */}
-        <Auth/>
+        {/* <Auth/> */}
+        <Async_Thunk/>
       </div>
       
     </>
