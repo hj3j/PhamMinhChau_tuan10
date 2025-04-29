@@ -10,6 +10,7 @@ import Cart from './component/Cart'
 import Auth from './component/Auth'
 import Async_Thunk from './component/Async_Thunk'
 import Couter_advanced from './component/Couter_advanced'
+import BMI from './component/BMI'
 
 function App() {
 
@@ -26,7 +27,8 @@ function App() {
         {/* <Cart/> */}
         {/* <Auth/> */}
         {/* <Async_Thunk/> */}
-        <Couter_advanced/>
+        {/* <Couter_advanced/> */}
+        <BMI/>
       </div>
       
     </>

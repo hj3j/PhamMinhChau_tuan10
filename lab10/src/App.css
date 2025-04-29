@@ -127,3 +127,35 @@ body.dark{
 .counter_Advanced span{
   color: red;
 }
+
+/* BMI ************************************************************************************************ */
+
+.BMI h1{
+    display: flex;
+    justify-content: center;
+}
+
+.BMI div{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+  align-items: center;
+}
+
+.BMI span{
+  color: red;
+}
+
+.BMI button{
+  background-color: green;
+  margin-right: 20px;
+}
+
+.BMI .reset {
+  background-color: #ccc;
+}
+
+.BMI input{
+  margin-left: 20px;
+}
+
