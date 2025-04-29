@@ -5,6 +5,7 @@ import themeReducer from "./themeSlice"
 import cartReducer from "./CartSlice"
 import authReducer from './AuthSlice'
 import asyncThunkReducer from './Async_Thunk_Slice'
+import counter_advanced_Reducer from './Counter_Advanced_Slice'
 
 export const store = configureStore({
     reducer:{
@@ -13,6 +14,7 @@ export const store = configureStore({
         theme: themeReducer,
         cart: cartReducer,
         auth: authReducer,
-        asyncThunk: asyncThunkReducer
+        asyncThunk: asyncThunkReducer,
+        counter_advanced: counter_advanced_Reducer
     }
 })

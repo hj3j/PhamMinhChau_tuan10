@@ -9,6 +9,7 @@ import ThemeToggle from './component/ThemeToggle'
 import Cart from './component/Cart'
 import Auth from './component/Auth'
 import Async_Thunk from './component/Async_Thunk'
+import Couter_advanced from './component/Couter_advanced'
 
 function App() {
 
@@ -24,7 +25,8 @@ function App() {
         {/* <ThemeToggle/> */}
         {/* <Cart/> */}
         {/* <Auth/> */}
-        <Async_Thunk/>
+        {/* <Async_Thunk/> */}
+        <Couter_advanced/>
       </div>
       
     </>

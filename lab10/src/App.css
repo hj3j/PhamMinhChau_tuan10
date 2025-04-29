@@ -106,3 +106,24 @@ body.dark{
   margin: 20px 0px;
   list-style-type: none;
 }
+
+/* COUNTER ADVANCED*****************************************************************************************8888 */
+.counter_Advanced input {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.counter_Advanced .increase{
+  background-color: green;
+  margin-left: 10px;
+}
+
+.counter_Advanced .reset{
+  background-color:  #ccc;
+  margin-left:  10px;
+}
+
+.counter_Advanced span{
+  color: red;
+}
